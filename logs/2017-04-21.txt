@@ -1,0 +1,4 @@
+[21-Apr-2017 20:29:58 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(48): Core\Router->dispatch('jhjhj')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 71

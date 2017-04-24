@@ -14,4 +14,6 @@ class Config {
 
 	const SHOW_ERRORS = false;
 
+	const BASE_DIR = '/phactory/';
+
 }

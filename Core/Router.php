@@ -1,6 +1,7 @@
 <?php
 namespace Core;
 
+// add redirect
 
 class Router {
 	protected $routes = [];
@@ -8,10 +9,16 @@ class Router {
 	protected $params = [];
 
 	public function add($route, $params = []){
+
+		// default route
 		$route = preg_replace('/\//', '\\/', $route);
-
+		// parameters
 		$route = preg_replace('/\{([a-z]+)\}/', '(?P<\1>[a-z-]+)', $route);
+		// optional parameters
 
+		//$route = preg_replace('#{([\w]+)?(:([^/\(\)]*))?}#', '(?P<\1>[a-z-]+)', $route);
+
+		// regex value
 		$route = preg_replace('/\{([a-z]+):([^\}]+)\}/', '(?P<\1>\2)', $route);
 
 		$route = '/^' . $route . '$/i';
@@ -57,7 +64,8 @@ class Router {
 				$action = $this->convertToCamelCase($action);
 
 				if (is_callable([$controller_object, $action])) {
-					$controller_object->$action();
+
+						$controller_object->$action();
 				}
 				else {
 					throw new \Exception("Method $action (in controller $controller) not found");
@@ -94,6 +102,7 @@ class Router {
 		}
 		return $url;
 	}
+
 
 	protected function getNamespace() {
 		$namespace = 'App\Controllers\\';

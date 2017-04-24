@@ -1,0 +1,625 @@
+[22-Apr-2017 02:36:26 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Missing argument 1 for App\Controllers\Posts::singleAction()'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\Error::errorHandler(2, 'Missing argumen...', 'C:\\wamp\\www\\pha...', 23, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(60): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(60): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/2')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 23
+[22-Apr-2017 02:36:26 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 71
+[22-Apr-2017 02:36:49 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Missing argument 1 for App\Controllers\Posts::singleAction()'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\Error::errorHandler(2, 'Missing argumen...', 'C:\\wamp\\www\\pha...', 23, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(60): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(60): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/single/2')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 23
+[22-Apr-2017 02:36:49 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/single/as...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 71
+[22-Apr-2017 02:38:21 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Missing argument 1 for App\Controllers\Posts::singleAction()'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\Error::errorHandler(2, 'Missing argumen...', 'C:\\wamp\\www\\pha...', 23, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(60): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(60): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/single/2')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 23
+[22-Apr-2017 02:38:22 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/single/as...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 71
+[22-Apr-2017 02:38:51 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Missing argument 1 for App\Controllers\Posts::singleAction()'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\Error::errorHandler(2, 'Missing argumen...', 'C:\\wamp\\www\\pha...', 23, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(60): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(60): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/2')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 23
+[22-Apr-2017 02:38:51 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 71
+[22-Apr-2017 02:58:13 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: posts'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(28): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 28, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction('2')
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single('2')
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/2')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 28
+[22-Apr-2017 02:58:13 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 02:58:16 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: posts'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(28): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 28, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction('2')
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single('2')
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/2')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 28
+[22-Apr-2017 02:58:16 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 02:59:17 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 02:59:17 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/assets/cs...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 02:59:20 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined index: id'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(58): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\pha...', 58, Array)
+#1 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#2 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 58
+[22-Apr-2017 03:00:54 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined index: id'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(60): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\pha...', 60, Array)
+#1 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#2 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 60
+[22-Apr-2017 03:00:56 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined index: id'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(60): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\pha...', 60, Array)
+#1 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#2 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 60
+[22-Apr-2017 03:13:54 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Missing argument 1 for App\Controllers\Posts::singleAction()'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\Error::errorHandler(2, 'Missing argumen...', 'C:\\wamp\\www\\pha...', 23, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 23
+[22-Apr-2017 03:13:55 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:29:31 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Missing argument 1 for App\Controllers\Posts::singleAction()'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\Error::errorHandler(2, 'Missing argumen...', 'C:\\wamp\\www\\pha...', 23, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 23
+[22-Apr-2017 03:29:32 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:34:17 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:34:23 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:34:26 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:37:59 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined index: id'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(25): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\pha...', 25, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 25
+[22-Apr-2017 03:37:59 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:38:17 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:39:42 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod oneAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('one', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->one()
+#2 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 23
+[22-Apr-2017 03:39:42 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:39:47 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/5')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:39:48 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:40:10 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/5')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:40:10 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:40:14 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:40:17 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/5')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 03:40:18 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 04:35:55 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/5')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 04:35:59 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/3/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:40:31 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/123')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:40:31 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/assets/cs...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:40:38 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/1/123')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:40:38 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/1/assets/...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:40:49 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/single/1/...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:40:49 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/single/1/...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:41:00 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/123')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:41:00 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:41:21 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:41:48 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:47:21 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:47:40 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 15:54:55 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:18:10 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:18:47 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod oneAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('one', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->one()
+#2 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 23
+[22-Apr-2017 16:18:48 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:18:55 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:20:41 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:20:43 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:20:46 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod oneAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('one', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->one()
+#2 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 23
+[22-Apr-2017 16:20:46 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:21:14 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod oneAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('one', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->one()
+#2 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 23
+[22-Apr-2017 16:21:15 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:21:16 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod oneAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('one', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->one()
+#2 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/1')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 23
+[22-Apr-2017 16:21:16 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:21:21 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/123')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:21:21 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/assets/cs...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:21:26 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/1')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:21:26 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(73): Core\Router->dispatch('posts/assets/cs...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:22:47 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod oneAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('one', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->one()
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 23
+[22-Apr-2017 16:22:48 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:22:58 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:23:29 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:23:38 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/asset...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:23:54 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/assets/cs...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:23:55 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/assets/cs...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:24:20 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:25:06 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/pub...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:26:13 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/pub...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:28:47 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:28:49 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:30:16 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/pub...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:30:42 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/publi...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:30:51 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/public/as...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:31:12 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:31:23 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('asssets/css/sty...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:31:44 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:32:08 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:32:09 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:32:18 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:32:18 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:33:01 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:33:01 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 16:47:31 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: doc_root'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(36): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 36, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(20): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/123')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 36
+[22-Apr-2017 16:47:55 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: url'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(32): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 32, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(20): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/123')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 32
+[22-Apr-2017 16:54:53 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: url'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(32): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 32, Array)
+#1 [internal function]: App\Controllers\Posts->singleAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(20): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/123')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 32
+[22-Apr-2017 16:56:13 Europe/Belgrade] Uncaught exception: 'Exception' with message 'Metod hujhjkAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('hujhjk', Array)
+#1 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->hujhjk()
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/hujhjk')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 25
+[22-Apr-2017 17:13:03 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(11): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 11, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 11
+[22-Apr-2017 17:13:06 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(11): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 11, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 11
+[22-Apr-2017 17:13:51 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(12): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 12, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 12
+[22-Apr-2017 17:13:52 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(12): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 12, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 12
+[22-Apr-2017 17:14:06 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(12): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 12, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 12
+[22-Apr-2017 17:39:26 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(12): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 12, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 12
+[22-Apr-2017 17:39:28 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Use of undefined constant BASE_DIR - assumed 'BASE_DIR''
+Stack trace: #0 C:\wamp\www\phactory\Core\Controller.php(12): Core\Error::errorHandler(8, 'Use of undefine...', 'C:\\wamp\\www\\pha...', 12, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(55): Core\Controller->__construct(Array)
+#2 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#3 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Controller.php' on line 12
+[22-Apr-2017 17:41:44 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 17:42:19 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unknown "baseURL" function.'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('baseURL', 6)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('baseURL', 6)
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Template.php(366): Twig_Environment->loadTemplate('base.html', NULL)
+#10 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(462) : eval()'d code(11): Twig_Template->loadTemplate('base.html', 'Posts/index.twi...', 1)
+#11 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(475): __TwigTemplate_93a7ef6076884dadfbdccda0bbc34d6295f64029d5fe5de203442c10308c7778->__construct(Object(Twig_Environment))
+#12 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#13 C:\wamp\www\phactory\Core\View.php(32): Twig_Environment->render('Posts/index.twi...', Array)
+#14 C:\wamp\www\phactory\App\Controllers\Posts.php(31): Core\View::renderTemplate('Posts/index.twi...', Array)
+#15 [internal function]: App\Controllers\Posts->singleAction()
+#16 C:\wamp\www\phactory\Core\Controller.php(21): call_user_func_array(Array, Array)
+#17 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#18 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#19 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/123')
+#20 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\base.html' on line 6
+[22-Apr-2017 17:42:19 Europe/Belgrade] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "baseURL" function.' in C:\wamp\www\phactory\App\Views\base.html:6
+Stack trace:
+#0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('baseURL', 6)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('baseURL', 6)
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment. in C:\wamp\www\phactory\App\Views\base.html on line 6
+[22-Apr-2017 17:42:23 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unknown "baseURL" function.'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('baseURL', 6)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('baseURL', 6)
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Template.php(366): Twig_Environment->loadTemplate('base.html', NULL)
+#10 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(462) : eval()'d code(11): Twig_Template->loadTemplate('base.html', 'Posts/index.twi...', 1)
+#11 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(475): __TwigTemplate_93a7ef6076884dadfbdccda0bbc34d6295f64029d5fe5de203442c10308c7778->__construct(Object(Twig_Environment))
+#12 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#13 C:\wamp\www\phactory\Core\View.php(32): Twig_Environment->render('Posts/index.twi...', Array)
+#14 C:\wamp\www\phactory\App\Controllers\Posts.php(31): Core\View::renderTemplate('Posts/index.twi...', Array)
+#15 [internal function]: App\Controllers\Posts->singleAction()
+#16 C:\wamp\www\phactory\Core\Controller.php(21): call_user_func_array(Array, Array)
+#17 C:\wamp\www\phactory\Core\Router.php(61): Core\Controller->__call('single', Array)
+#18 C:\wamp\www\phactory\Core\Router.php(61): App\Controllers\Posts->single()
+#19 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/123')
+#20 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\base.html' on line 6
+[22-Apr-2017 17:42:23 Europe/Belgrade] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "baseURL" function.' in C:\wamp\www\phactory\App\Views\base.html:6
+Stack trace:
+#0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('baseURL', 6)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('baseURL', 6)
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment. in C:\wamp\www\phactory\App\Views\base.html on line 6
+[22-Apr-2017 18:24:07 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 18:51:28 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/ass...')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 18:53:17 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/nm')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 18:53:47 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/nm')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 18:53:50 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/nm')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 18:54:02 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/nm')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72
+[22-Apr-2017 18:54:41 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'preg_match(): Compilation failed: unmatched parentheses at offset 45'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'preg_match(): C...', 'C:\\wamp\\www\\pha...', 28, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(28): preg_match('/^posts\\/one\\/(...', 'posts/one/1/nm', NULL)
+#2 C:\wamp\www\phactory\Core\Router.php(49): Core\Router->match('posts/one/1/nm')
+#3 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/nm')
+#4 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 28
+[22-Apr-2017 18:54:46 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'preg_match(): Compilation failed: unmatched parentheses at offset 45'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'preg_match(): C...', 'C:\\wamp\\www\\pha...', 28, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(28): preg_match('/^posts\\/one\\/(...', 'posts/one/1/4', NULL)
+#2 C:\wamp\www\phactory\Core\Router.php(49): Core\Router->match('posts/one/1/4')
+#3 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/4')
+#4 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 28
+[22-Apr-2017 18:54:50 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'preg_match(): Compilation failed: unmatched parentheses at offset 45'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'preg_match(): C...', 'C:\\wamp\\www\\pha...', 28, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(28): preg_match('/^posts\\/one\\/(...', 'posts/one/1/a', NULL)
+#2 C:\wamp\www\phactory\Core\Router.php(49): Core\Router->match('posts/one/1/a')
+#3 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/a')
+#4 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 28
+[22-Apr-2017 18:54:56 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'preg_match(): Compilation failed: unmatched parentheses at offset 45'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'preg_match(): C...', 'C:\\wamp\\www\\pha...', 28, Array)
+#1 C:\wamp\www\phactory\Core\Router.php(28): preg_match('/^posts\\/one\\/(...', 'posts/one/1/a1', NULL)
+#2 C:\wamp\www\phactory\Core\Router.php(49): Core\Router->match('posts/one/1/a1')
+#3 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/a1')
+#4 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 28
+[22-Apr-2017 18:55:13 Europe/Belgrade] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts/one/1/a1')
+#1 {main}
+Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 72

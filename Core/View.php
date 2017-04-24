@@ -1,5 +1,6 @@
 <?php
 namespace Core;
+use App\Config;
 
 class View {
 
@@ -23,7 +24,10 @@ class View {
 
 	public static function renderTemplate($template, $args = []) {
 		static $twig = null;
-
+		/*
+		private $server = $_SERVER['SERVER_NAME'];
+		private $baseURL = "http://" . $server . "/phactory/";
+		*/
 		if ($twig === null) {
 			$loader = new \Twig_Loader_Filesystem('../App/Views');
 			$twig = new \Twig_Environment($loader);			

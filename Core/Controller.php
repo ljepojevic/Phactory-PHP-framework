@@ -1,5 +1,6 @@
 <?php
 namespace Core;
+use App\Config;
 
 abstract class Controller {
 
@@ -25,10 +26,14 @@ abstract class Controller {
 	}
 
 	protected function before() {
-
+		
 	}
 	protected function after() {
 		
 	}
+
+
+
+
 
 }
