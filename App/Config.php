@@ -12,8 +12,10 @@ class Config {
 
 	const DB_PASS = '';
 
-	const SHOW_ERRORS = false;
+	const SHOW_ERRORS = true;
 
 	const BASE_DIR = '/phactory/';
+
+	const HASH_KEY = "newui#7^67@hsadbh!hjdsa?jhsad";
 
 }

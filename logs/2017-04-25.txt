@@ -1,0 +1,71 @@
+[25-Apr-2017 00:11:11 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected "lipsum" tag (expecting closing tag for the "block" tag defined near line 6).'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#7 C:\wamp\www\phactory\Core\View.php(56): Twig_Environment->render('Posts/index.twi...', Array)
+#8 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#9 [internal function]: App\Controllers\Posts->indexAction()
+#10 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#12 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#13 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#14 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8
+[25-Apr-2017 00:11:12 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected "lipsum" tag (expecting closing tag for the "block" tag defined near line 6).'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#7 C:\wamp\www\phactory\Core\View.php(56): Twig_Environment->render('Posts/index.twi...', Array)
+#8 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#9 [internal function]: App\Controllers\Posts->indexAction()
+#10 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#12 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#13 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#14 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8
+[25-Apr-2017 00:12:03 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected "lipsum" tag (expecting closing tag for the "block" tag defined near line 6).'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#7 C:\wamp\www\phactory\Core\View.php(56): Twig_Environment->render('Posts/index.twi...', Array)
+#8 C:\wamp\www\phactory\App\Controllers\Posts.php(22): Core\View::renderTemplate('Posts/index.twi...', Array)
+#9 [internal function]: App\Controllers\Posts->indexAction()
+#10 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#12 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#13 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#14 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8
+[25-Apr-2017 00:35:57 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: filter'
+Stack trace: #0 C:\wamp\www\phactory\Core\View.php(40): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 40, Array)
+#1 C:\wamp\www\phactory\App\Controllers\Posts.php(22): Core\View::renderTemplate('Posts/index.twi...', Array)
+#2 [internal function]: App\Controllers\Posts->indexAction()
+#3 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#4 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#6 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#7 {main}
+Thrown in 'C:\wamp\www\phactory\Core\View.php' on line 40
+[25-Apr-2017 00:36:07 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: filter'
+Stack trace: #0 C:\wamp\www\phactory\Core\View.php(40): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 40, Array)
+#1 C:\wamp\www\phactory\App\Controllers\Posts.php(22): Core\View::renderTemplate('Posts/index.twi...', Array)
+#2 [internal function]: App\Controllers\Posts->indexAction()
+#3 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#4 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#6 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#7 {main}
+Thrown in 'C:\wamp\www\phactory\Core\View.php' on line 40

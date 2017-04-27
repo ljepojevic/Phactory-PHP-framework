@@ -1,0 +1,22 @@
+{% spaceless %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="http://localhost/phactory/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="assets/img/phactory.png">
+</head>
+<body>
+<header>
+	<nav><a class="logotype" href="/phactory"><i class="fa fa-cog"></i> phactory <super>v1.0</super></a> <a href="/phactory/posts"><i class="fa fa-newspaper-o"></i> Posts</a> <a href="/phactory/form"><i class="fa fa-file-text-o"></i> Form</a> <a href="/phactory/posts/list"><i class="fa fa-list"></i> List</a> <a href="/phactory/posts/new"><i class="fa fa-pencil-square"></i> New</a></nav>
+</header>
+
+	{% block body %}
+	{% endblock %}
+
+<!--footer>Powered by Phactory &copy;{{ year }}</footer-->
+</body>
+</html>
+{% endspaceless %}

@@ -8,7 +8,7 @@ class Router {
 
 	protected $params = [];
 
-	public function add($route, $params = []){
+	public function set($route, $params = []){
 
 		// default route
 		$route = preg_replace('/\//', '\\/', $route);

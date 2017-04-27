@@ -190,3 +190,158 @@ Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 79
 Stack trace: #0 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('redirected')
 #1 {main}
 Thrown in 'C:\wamp\www\phactory\Core\Router.php' on line 79
+[24-Apr-2017 14:48:02 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character "\".'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(227): Twig_Lexer->lexExpression()
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(126): Twig_Lexer->lexVar()
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(653): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->tokenize(Object(Twig_Source))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#6 C:\wamp\www\phactory\Core\View.php(36): Twig_Environment->render('Posts/index.twi...', Array)
+#7 C:\wamp\www\phactory\App\Controllers\Posts.php(22): Core\View::renderTemplate('Posts/index.twi...', Array)
+#8 [internal function]: App\Controllers\Posts->indexAction()
+#9 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#10 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#12 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#13 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 7
+[24-Apr-2017 14:48:04 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character "\".'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(227): Twig_Lexer->lexExpression()
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(126): Twig_Lexer->lexVar()
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(653): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->tokenize(Object(Twig_Source))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#6 C:\wamp\www\phactory\Core\View.php(36): Twig_Environment->render('Posts/index.twi...', Array)
+#7 C:\wamp\www\phactory\App\Controllers\Posts.php(22): Core\View::renderTemplate('Posts/index.twi...', Array)
+#8 [internal function]: App\Controllers\Posts->indexAction()
+#9 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#10 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#12 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#13 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 7
+[24-Apr-2017 14:48:28 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "punctuation" of value ":" ("end of print statement" expected).'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(148): Twig_TokenStream->expect(4)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#7 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#8 C:\wamp\www\phactory\Core\View.php(36): Twig_Environment->render('Posts/index.twi...', Array)
+#9 C:\wamp\www\phactory\App\Controllers\Posts.php(22): Core\View::renderTemplate('Posts/index.twi...', Array)
+#10 [internal function]: App\Controllers\Posts->indexAction()
+#11 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#12 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#13 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#14 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#15 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 7
+[24-Apr-2017 16:26:50 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Undefined variable: params'
+Stack trace: #0 C:\wamp\www\phactory\Core\View.php(35): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 35, Array)
+#1 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#2 [internal function]: App\Controllers\Posts->indexAction()
+#3 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#4 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#6 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#7 {main}
+Thrown in 'C:\wamp\www\phactory\Core\View.php' on line 35
+[24-Apr-2017 16:26:50 Europe/Belgrade] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined variable: params' in C:\wamp\www\phactory\Core\View.php:35
+Stack trace:
+#0 C:\wamp\www\phactory\Core\View.php(35): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp\\www\\pha...', 35, Array)
+#1 C:\wamp\www\phactory\Core\Error.php(39): Core\View::renderTemplate('500.twig')
+#2 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in C:\wamp\www\phactory\Core\View.php on line 35
+[24-Apr-2017 16:30:59 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character "'".'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(227): Twig_Lexer->lexExpression()
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(126): Twig_Lexer->lexVar()
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(653): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->tokenize(Object(Twig_Source))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#6 C:\wamp\www\phactory\Core\View.php(54): Twig_Environment->render('Posts/index.twi...', Array)
+#7 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#8 [internal function]: App\Controllers\Posts->indexAction()
+#9 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#10 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#12 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#13 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8
+[24-Apr-2017 23:51:55 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character ";".'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(227): Twig_Lexer->lexExpression()
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(126): Twig_Lexer->lexVar()
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(653): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->tokenize(Object(Twig_Source))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#6 C:\wamp\www\phactory\Core\View.php(56): Twig_Environment->render('Posts/index.twi...', Array)
+#7 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#8 [internal function]: App\Controllers\Posts->indexAction()
+#9 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#10 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#12 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#13 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8
+[24-Apr-2017 23:52:12 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected character ";".'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(227): Twig_Lexer->lexExpression()
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Lexer.php(126): Twig_Lexer->lexVar()
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(653): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->tokenize(Object(Twig_Source))
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#6 C:\wamp\www\phactory\Core\View.php(56): Twig_Environment->render('Posts/index.twi...', Array)
+#7 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#8 [internal function]: App\Controllers\Posts->indexAction()
+#9 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#10 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#11 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#12 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#13 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8
+[24-Apr-2017 23:53:40 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Creating default object from empty value'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(18): Core\Error::errorHandler(2, 'Creating defaul...', 'C:\\wamp\\www\\pha...', 18, Array)
+#1 [internal function]: App\Controllers\Posts->indexAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 18
+[24-Apr-2017 23:53:47 Europe/Belgrade] Uncaught exception: 'ErrorException' with message 'Creating default object from empty value'
+Stack trace: #0 C:\wamp\www\phactory\App\Controllers\Posts.php(18): Core\Error::errorHandler(2, 'Creating defaul...', 'C:\\wamp\\www\\pha...', 18, Array)
+#1 [internal function]: App\Controllers\Posts->indexAction()
+#2 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#3 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#4 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#5 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#6 {main}
+Thrown in 'C:\wamp\www\phactory\App\Controllers\Posts.php' on line 18
+[24-Apr-2017 23:56:41 Europe/Belgrade] Uncaught exception: 'Twig_Error_Syntax' with message 'Unknown "form_start" function.'
+Stack trace: #0 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('form_start', 8)
+#1 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('form_start', 8)
+#2 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#6 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#7 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#8 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#11 C:\wamp\www\phactory\vendor\Twig-1.x\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Posts/index.twi...')
+#12 C:\wamp\www\phactory\Core\View.php(56): Twig_Environment->render('Posts/index.twi...', Array)
+#13 C:\wamp\www\phactory\App\Controllers\Posts.php(23): Core\View::renderTemplate('Posts/index.twi...', Array)
+#14 [internal function]: App\Controllers\Posts->indexAction()
+#15 C:\wamp\www\phactory\Core\Controller.php(19): call_user_func_array(Array, Array)
+#16 C:\wamp\www\phactory\Core\Router.php(68): Core\Controller->__call('index', Array)
+#17 C:\wamp\www\phactory\Core\Router.php(68): App\Controllers\Posts->index()
+#18 C:\wamp\www\phactory\public\index.php(74): Core\Router->dispatch('posts')
+#19 {main}
+Thrown in 'C:\wamp\www\phactory\App\Views\Posts\index.twig' on line 8

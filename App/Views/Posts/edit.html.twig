@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Edit post{% endblock %}
+
+{% block body %}
+	<h1 class="title">Edit post</h1>
+{{ 'open'|form('form','/phactory/posts/save',{'method':'POST','class':'box'})|raw }}
+
+{{ 'label'|form('title','Title')|raw }}
+<br />
+{{ 'text'|form('title', post.title,{'id':'title','class':'box', 'placeholder':'Enter title'})|raw }}
+<br />
+{{ 'label'|form('content','Text')|raw }}
+<br />
+{{ 'textarea'|form('content', post.content,{'id':'content','class':'box'})|raw }}
+<br />
+{{ 'hidden'|form('id', post.id)|raw }}
+{{ 'submit'|form('post','Save',{'class':'box'})|raw }}
+
+{{ 'close'|form('form')|raw }}
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html.twig" %}
+
+{% block title %}List of posts{% endblock %}
+
+{% block body %}
+	<h1 class="title">List of posts</h1>
+	<table>
+		<tr>
+			<td colspan="5">
+				{{ 'open'|form('search','/phactory/posts/list',{'class':'bf'})|raw }}
+				<i class="fa fa-search"></i> {{ 'text'|form('q',q,{'id':'q', 'placeholder':'Search'})|raw }}
+				<!--{{ 'submit'|form('','&#xf002;',{'class':'box'})|raw }}-->
+				{{ 'close'|form('form')|raw }}
+			{% if count %}
+			&nbsp;<span>{{ count }} results found</span>
+			{% endif %}
+			</td>
+		</tr>
+		<tr>
+			<th><i class="fa fa-list-ol"></i></th><th>Title</th><th>Text</th><th>Created</th><th></th><th></th>
+		</tr>
+		
+		{% for post in posts %}
+			{% if loop.index is odd %}
+				<tr class="row even">
+			{% else %}
+				<tr class="row">
+			{% endif %}
+				<td><b>{{ loop.index }}.</b></td>
+				<td>{{ post.title }}</td>
+				<td><i>{{ post.content }}</i></td>
+				<td>{{ post.created_at }}</td>
+				<td><a title="Edit post" class="option edit" href="{{ ''|baseUrl() }}posts/edit/{{ post.id }}"><i class="fa fa-pencil-square-o"></i></a></td>
+				<td><a title="Delete post" class="option delete" href="{{ ''|baseUrl() }}posts/delete/{{ post.id }}"><i class="fa fa-times"></i></a></td>
+			</tr>
+		{%  endfor %}
+		<tr>
+			<td class="paginator" colspan="6">{{ pageNum|raw }}</td>
+		</tr>
+	</table>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Posts{% endblock %}
+
+{% block body %}
+	<h1>Form</h1>
+{{ 'open'|form('form','',{'class':'box'})|raw }}
+
+{{ 'label'|form('first_name','Name')|raw }}
+{{ 'text'|form('first_name','',{'id':'first_name','class':'box', 'placeholder':'Enter your first name'})|raw }}
+<br />
+{{ 'radio'|form('place','New York',{'class':'box', 'id':'radiocity1'})|raw }} 
+{{ 'label'|form('radiocity1','New York')|raw }}
+{{ 'radio'|form('place','Berlin',{'class':'box', 'id':'radiocity2'})|raw }} 
+{{ 'label'|form('radiocity2','Berlin')|raw }}
+{{ 'radio'|form('place','London',{'class':'box', 'id':'radiocity3'})|raw }} 
+{{ 'label'|form('radiocity3','London')|raw }}
+<br />
+{{ 'checkbox'|form('place','New York',{'class':'box', 'id':'city'})|raw }} 
+{{ 'label'|form('city','Belgrade')|raw }}
+<br />
+{{ 'select'|form('cities',{'beograd':'Beograd','novi_sad':'Novi Sad','sombor':'Sombor','apatin':'Apatin'},{'class':'box'})|raw }}
+<br />
+{{ 'textarea'|form('notes','Some text',{'class':'box'})|raw }}
+<br />
+{{ 'button'|form('click','Click me',{'class':'box'})|raw }}
+<br />
+{{ 'submit'|form('send','Send',{'class':'box'})|raw }}
+
+{{ 'close'|form('form')|raw }}
+{% endblock %}

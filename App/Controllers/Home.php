@@ -13,7 +13,7 @@ class Home extends \Core\Controller {
 
 	public function indexAction() {
 
-		View::renderTemplate('Home/index.twig', [
+		View::renderTemplate('Home/index.html.twig', [
 			'name' => 'Milan',
 			'colors' => ['red', 'blue', 'green'], 
 			'year' => date('Y')		         

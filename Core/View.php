@@ -1,8 +1,9 @@
 <?php
 namespace Core;
 use App\Config;
+//use Core\Form;
 
-class View {
+class View extends \Core\Form {
 
 	// basic view method using .php files
 
@@ -30,7 +31,30 @@ class View {
 		*/
 		if ($twig === null) {
 			$loader = new \Twig_Loader_Filesystem('../App/Views');
-			$twig = new \Twig_Environment($loader);			
+			$twig = new \Twig_Environment($loader);	
+			//----------
+			$forms = new \Twig_SimpleFilter('form', function($type, $name, $value = '', $attributes = []){
+
+				if ($type == 'close') {  //  name, action, attributes
+					return \Core\Form::close();
+				}
+				else {
+					return \Core\Form::$type($name, $value, $attributes);
+				}
+			});
+
+			$twig->addFilter($forms);
+
+			$urls = new \Twig_SimpleFilter('url', function($route){
+				return \Core\Request::url($route);
+			});
+			$twig->addFilter($urls);
+
+			$base = new \Twig_SimpleFilter('baseUrl', function(){
+				return "http://" . Config::DB_HOST . Config::BASE_DIR;
+			});
+			$twig->addFilter($base);
+
 		}
 
 		echo $twig->render($template, $args);
