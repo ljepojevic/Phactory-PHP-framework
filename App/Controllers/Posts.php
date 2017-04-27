@@ -56,6 +56,7 @@ class Posts extends \Core\Controller {
 			$pages = $paginator->display;          		
 		}
 		else {
+			$paginator = new Pagination();
 			$posts = Post::all();
 			$paginator->total = $posts->count();
 			$paginator->limit = 5;
